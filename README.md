@@ -46,9 +46,14 @@ Extrai dados de forma agnóstica de arquivos csv, json, xls, xlsx, xlsm, xlsb, o
 
 - `to_dict(**kwargs)`: converta arquivo num dicionário.
 
+    - **Parâmetro**: **kwargs, propiedade de pandas.DataFrame.to_dict
+    - **Devolução**: **dict**, arquivo formatado como dicionário.
+
 
 - `to_csv(**kwargs)`: converta arquivo num arquivo de valores separado por vírgula (csv).
 
+    - **Parâmetro**: **kwargs, propiedade de pandas.DataFrame.to_csv
+    - **Devolução**: **dict**, arquivo formatado como CSV.
 
 <hr>
 
@@ -101,3 +106,4 @@ print(answer.equals(resultado))
 ```
 
 `>>> True`
+
